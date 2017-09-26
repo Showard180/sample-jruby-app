@@ -1,0 +1,7 @@
+---
+applications:
+- name: sample-jruby
+  memory: 768M
+  instances: 2
+  buildpack: https://github.com/cloudfoundry/ruby-buildpack#v1.7.2
+  command: jruby -S bundle exec rackup -p $PORT

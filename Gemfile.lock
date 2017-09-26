@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    puma (3.10.0-java)
+    rack (1.6.8)
+    rack-protection (1.5.3)
+      rack
+    sinatra (1.4.8)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    tilt (2.0.8)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  puma
+  sinatra
+
+RUBY VERSION
+   ruby 1.9.3p551 (jruby 1.7.26)
+
+BUNDLED WITH
+   1.15.4
